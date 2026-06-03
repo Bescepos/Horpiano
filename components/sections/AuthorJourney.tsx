@@ -15,7 +15,7 @@ const steps: TimelineStep[] = [
     icon: "writing",
     title: "Writing",
     description:
-      "Get the words down — through ghostwriting, coaching, or accountability that keeps you moving.",
+      "Get the words down, through ghostwriting, coaching, or accountability that keeps you moving.",
   },
   {
     icon: "editing",
@@ -57,7 +57,7 @@ export function AuthorJourney() {
           <SectionHeading
             eyebrow="The Author Journey"
             title="From first idea to lasting career"
-            subtitle="Wherever you are on the path, we meet you there — and guide you all the way to author success."
+            subtitle="Wherever you are on the path, we meet you there, and guide you all the way to author success."
           />
         </Reveal>
         <div className="mt-16">

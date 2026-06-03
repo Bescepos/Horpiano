@@ -34,7 +34,7 @@ export const resources: Resource[] = [
     slug: "beat-writers-block-for-good",
     title: "How to Beat Writer's Block for Good",
     excerpt:
-      "Practical, repeatable techniques to get unstuck and keep your draft moving — even on the hard days.",
+      "Practical, repeatable techniques to get unstuck and keep your draft moving, even on the hard days.",
     category: "writing-tips",
     tags: ["drafting", "productivity", "habits"],
     readingTimeMins: 6,
@@ -97,7 +97,7 @@ export const resources: Resource[] = [
     slug: "what-editors-wish-you-knew",
     title: "What Editors Wish Every Author Knew",
     excerpt:
-      "Insider perspective on the editing process — and how to get far more value from your edit.",
+      "Insider perspective on the editing process, and how to get far more value from your edit.",
     category: "writing-tips",
     tags: ["editing", "revision", "craft"],
     readingTimeMins: 6,
@@ -131,7 +131,7 @@ export const resources: Resource[] = [
   {
     id: "r9",
     slug: "audiobook-boom",
-    title: "Inside the Audiobook Boom — and How to Ride It",
+    title: "Inside the Audiobook Boom, and How to Ride It",
     excerpt:
       "Why listening is the fastest-growing format and how to add an audio edition without the headache.",
     category: "industry-insights",
@@ -169,7 +169,7 @@ export const resources: Resource[] = [
     slug: "write-a-memoir-that-resonates",
     title: "How to Write a Memoir That Resonates",
     excerpt:
-      "Turning lived experience into a story readers connect with — structure, honesty, and craft.",
+      "Turning lived experience into a story readers connect with, structure, honesty, and craft.",
     category: "writing-tips",
     tags: ["memoir", "structure", "voice"],
     readingTimeMins: 10,

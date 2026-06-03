@@ -24,7 +24,7 @@ export function BookCoverMock({
       )}
       style={{ backgroundImage: `linear-gradient(150deg, ${from}, ${to})` }}
       role="img"
-      aria-label={`${title} by ${author} — book cover`}
+      aria-label={`${title} by ${author}, book cover`}
     >
       {/* Spine highlight */}
       <div className="absolute inset-y-0 left-0 w-2 bg-black/25" aria-hidden="true" />

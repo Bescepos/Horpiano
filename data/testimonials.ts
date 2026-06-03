@@ -44,7 +44,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t5",
     quote:
-      "My author brand and website finally look like they belong to a serious writer. Readers take me seriously now — and so do I.",
+      "My author brand and website finally look like they belong to a serious writer. Readers take me seriously now, and so do I.",
     authorName: "Sophie Laurent",
     authorRole: "Memoirist & Speaker",
     rating: 5,

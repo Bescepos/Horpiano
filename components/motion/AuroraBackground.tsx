@@ -8,7 +8,7 @@ interface AuroraBackgroundProps {
 
 /**
  * Decorative blurred navy/gold blobs for dark hero/CTA surfaces.
- * Purely ornamental — hidden from assistive technology and non-interactive.
+ * Purely ornamental, hidden from assistive technology and non-interactive.
  */
 export function AuroraBackground({ className, grid = true }: AuroraBackgroundProps) {
   return (

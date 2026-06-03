@@ -14,8 +14,8 @@ interface HoverLiftProps {
 export function HoverLift({
   children,
   className,
-  y = -6,
-  scale = 1.02,
+  y = -4,
+  scale = 1.012,
 }: HoverLiftProps) {
   const reduce = useReducedMotion();
 
@@ -27,8 +27,8 @@ export function HoverLift({
     <motion.div
       className={className}
       whileHover={{ y, scale }}
-      whileTap={{ scale: 0.99 }}
-      transition={{ type: "spring", stiffness: 300, damping: 22 }}
+      whileTap={{ scale: 0.992 }}
+      transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
     </motion.div>

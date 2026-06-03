@@ -20,7 +20,7 @@ function Slide({ t }: { t: Testimonial }) {
           ))}
         </div>
       )}
-      <blockquote className="mt-5 font-serif text-xl leading-relaxed text-white sm:text-2xl">
+      <blockquote className="mt-5 font-serif text-2xl font-medium leading-[1.35] text-white sm:text-[2rem]">
         “{t.quote}”
       </blockquote>
       <div className="mt-8 flex items-center gap-4">

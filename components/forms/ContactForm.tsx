@@ -83,7 +83,7 @@ export function ContactForm() {
         value={values.subject}
         onChange={set("subject")}
         error={fieldErrors.subject}
-        hint="Optional — what is this about?"
+        hint="Optional, what is this about?"
       />
       <Textarea
         label="Message"

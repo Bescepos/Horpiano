@@ -12,9 +12,9 @@ interface CardProps {
 
 const paddings = {
   none: "",
-  sm: "p-5",
-  md: "p-7",
-  lg: "p-9",
+  sm: "p-6",
+  md: "p-8",
+  lg: "p-10",
 };
 
 export function Card({

@@ -21,7 +21,7 @@ export const metadata: Metadata = buildMetadata({
 
 const benefits = [
   "A personalized roadmap for your book and goals",
-  "Honest, expert advice — with no obligation",
+  "Honest, expert advice, with no obligation",
   "Clarity on the services, timeline, and investment",
   "A confident next step, whatever stage you're at",
 ];

@@ -22,7 +22,7 @@ export interface SendResult {
  * Today this records the submission server-side and reports success without an
  * external dependency, so the site is fully self-contained. To enable real
  * delivery, implement a single provider call below (e.g. SMTP / transactional
- * API) guarded by an environment variable — no form or route changes required.
+ * API) guarded by an environment variable, no form or route changes required.
  */
 export async function sendEmail(payload: EmailPayload): Promise<SendResult> {
   const to = siteConfig.contactEmail;

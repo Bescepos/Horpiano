@@ -13,12 +13,12 @@ export interface ArticleContent {
 export const resourceArticles: Record<string, ArticleContent> = {
   "beat-writers-block-for-good": {
     intro:
-      "Writer's block is rarely a lack of ideas — it's usually friction, perfectionism, or fatigue. The goal isn't to wait for inspiration, but to build a process that keeps you moving even when motivation dips.",
+      "Writer's block is rarely a lack of ideas, it's usually friction, perfectionism, or fatigue. The goal isn't to wait for inspiration, but to build a process that keeps you moving even when motivation dips.",
     sections: [
       {
         heading: "Lower the stakes of the first draft",
         body: [
-          "Your first draft only has to exist, not impress. Give yourself explicit permission to write badly — you can't edit a blank page.",
+          "Your first draft only has to exist, not impress. Give yourself explicit permission to write badly, you can't edit a blank page.",
           "Try a timed sprint: set a timer for 25 minutes and write without stopping or deleting. Momentum beats polish at this stage.",
         ],
       },
@@ -45,12 +45,12 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "self-publishing-vs-traditional": {
     intro:
-      "There's no universally 'right' way to publish — only the right fit for your goals. Understanding the real trade-offs helps you choose with confidence rather than fear of missing out.",
+      "There's no universally 'right' way to publish, only the right fit for your goals. Understanding the real trade-offs helps you choose with confidence rather than fear of missing out.",
     sections: [
       {
         heading: "Control and royalties",
         body: [
-          "Self-publishing gives you full control over cover, timing, price, and rights — and significantly higher per-copy royalties.",
+          "Self-publishing gives you full control over cover, timing, price, and rights, and significantly higher per-copy royalties.",
           "Traditional publishing trades much of that control for an advance, established distribution, and the validation of a publisher's name.",
         ],
       },
@@ -77,7 +77,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "author-website-essentials": {
     intro:
-      "Your website is the one platform you truly own — no algorithm, no rules but yours. A focused author site turns curious visitors into subscribers, and subscribers into lifelong readers.",
+      "Your website is the one platform you truly own, no algorithm, no rules but yours. A focused author site turns curious visitors into subscribers, and subscribers into lifelong readers.",
     sections: [
       {
         heading: "Capture and connect",
@@ -97,7 +97,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "Keep it fast and simple",
         body: [
           "A clean, fast, mobile-friendly site outperforms a cluttered one every time.",
-          "Update it when you launch — a current site signals an active, serious author.",
+          "Update it when you launch, a current site signals an active, serious author.",
         ],
       },
     ],
@@ -109,10 +109,10 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "book-launch-timeline": {
     intro:
-      "A great launch isn't a single day — it's a campaign. Spreading your effort across the months before and after publication turns a one-day spike into lasting momentum.",
+      "A great launch isn't a single day, it's a campaign. Spreading your effort across the months before and after publication turns a one-day spike into lasting momentum.",
     sections: [
       {
-        heading: "8–12 weeks out",
+        heading: "8-12 weeks out",
         body: [
           "Finalize your cover and metadata, set up pre-orders, and start building your launch team and reviewer list.",
           "Begin teasing the book to your email list and social channels.",
@@ -129,12 +129,12 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "After launch",
         body: [
           "Sustain momentum with ads, ongoing outreach, and follow-up to readers who engaged.",
-          "Capture lessons for your next launch — every campaign teaches you something.",
+          "Capture lessons for your next launch, every campaign teaches you something.",
         ],
       },
     ],
     takeaways: [
-      "Start the campaign 8–12 weeks before publication.",
+      "Start the campaign 8-12 weeks before publication.",
       "Concentrate activity in launch week for ranking impact.",
       "Plan deliberately for the post-launch tail.",
     ],
@@ -146,7 +146,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
       {
         heading: "Think like a reader",
         body: [
-          "List the words a reader would actually type to find a book like yours — themes, tropes, comparisons, and reader intent.",
+          "List the words a reader would actually type to find a book like yours, themes, tropes, comparisons, and reader intent.",
           "Specific, relevant phrases usually outperform broad, competitive single words.",
         ],
       },
@@ -154,7 +154,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "Research before you commit",
         body: [
           "Study bestsellers in your niche to see the language and categories they use.",
-          "Test and refine — keywords and categories aren't set in stone.",
+          "Test and refine, keywords and categories aren't set in stone.",
         ],
       },
       {
@@ -173,13 +173,13 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "what-editors-wish-you-knew": {
     intro:
-      "Editing is a collaboration, not a verdict. Understanding how editors work helps you get dramatically more value from the relationship — and a stronger book.",
+      "Editing is a collaboration, not a verdict. Understanding how editors work helps you get dramatically more value from the relationship, and a stronger book.",
     sections: [
       {
         heading: "Self-edit first",
         body: [
           "Send your strongest possible draft. Fixing obvious issues yourself frees your editor to focus on the deeper craft.",
-          "Take time away from the manuscript before your final read — distance reveals problems.",
+          "Take time away from the manuscript before your final read, distance reveals problems.",
         ],
       },
       {
@@ -193,7 +193,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "Stay open, stay you",
         body: [
           "Approach feedback with curiosity; the goal is your vision, realized more fully.",
-          "You're still the author — discuss changes you disagree with rather than silently accepting or rejecting them.",
+          "You're still the author, discuss changes you disagree with rather than silently accepting or rejecting them.",
         ],
       },
     ],
@@ -205,7 +205,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "building-author-brand-from-scratch": {
     intro:
-      "An author brand isn't a logo — it's the consistent promise your name makes to readers. Even with one book, defining it early makes everything you do more effective.",
+      "An author brand isn't a logo, it's the consistent promise your name makes to readers. Even with one book, defining it early makes everything you do more effective.",
     sections: [
       {
         heading: "Define your promise",
@@ -243,7 +243,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "What an ISBN is",
         body: [
           "An ISBN is a unique identifier for a specific edition and format of your book.",
-          "Each format — eBook, paperback, hardcover, audiobook — typically needs its own ISBN.",
+          "Each format, eBook, paperback, hardcover, audiobook, typically needs its own ISBN.",
         ],
       },
       {
@@ -274,7 +274,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
       {
         heading: "Why audio matters now",
         body: [
-          "Listeners consume books during commutes, workouts, and chores — time print and eBooks can't reach.",
+          "Listeners consume books during commutes, workouts, and chores, time print and eBooks can't reach.",
           "Audiobook buyers are often voracious, high-value readers.",
         ],
       },
@@ -282,7 +282,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
         heading: "Narration choices",
         body: [
           "A professional narrator who fits your book can elevate the experience dramatically.",
-          "For memoir and nonfiction, author narration can add authenticity — if it suits your voice.",
+          "For memoir and nonfiction, author narration can add authenticity, if it suits your voice.",
         ],
       },
       {
@@ -301,12 +301,12 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "growing-an-email-list": {
     intro:
-      "Your email list is the one audience you own outright. Unlike social platforms, it isn't subject to algorithms — making it the most reliable engine for long-term book sales.",
+      "Your email list is the one audience you own outright. Unlike social platforms, it isn't subject to algorithms, making it the most reliable engine for long-term book sales.",
     sections: [
       {
         heading: "Give a reason to subscribe",
         body: [
-          "Offer something genuinely valuable — a free story, a sample chapter, or a useful guide.",
+          "Offer something genuinely valuable, a free story, a sample chapter, or a useful guide.",
           "Make the signup prominent and the benefit crystal clear.",
         ],
       },
@@ -320,7 +320,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
       {
         heading: "Respect the inbox",
         body: [
-          "Email people as if writing to a friend — personal, generous, and never spammy.",
+          "Email people as if writing to a friend, personal, generous, and never spammy.",
           "A smaller, engaged list outperforms a large, indifferent one.",
         ],
       },
@@ -333,7 +333,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "publishing-trends-2026": {
     intro:
-      "Publishing keeps evolving, and the authors who thrive are those who plan around where the market is heading — not where it's been.",
+      "Publishing keeps evolving, and the authors who thrive are those who plan around where the market is heading, not where it's been.",
     sections: [
       {
         heading: "Discovery is shifting",
@@ -352,7 +352,7 @@ export const resourceArticles: Record<string, ArticleContent> = {
       {
         heading: "Direct relationships win",
         body: [
-          "Owned channels — email and your website — grow in value as platforms change.",
+          "Owned channels, email and your website, grow in value as platforms change.",
           "The strongest careers are built on direct reader relationships.",
         ],
       },
@@ -365,12 +365,12 @@ export const resourceArticles: Record<string, ArticleContent> = {
   },
   "write-a-memoir-that-resonates": {
     intro:
-      "A memoir isn't a diary — it's a crafted story drawn from your life. The art lies in finding the universal truth inside your personal experience.",
+      "A memoir isn't a diary, it's a crafted story drawn from your life. The art lies in finding the universal truth inside your personal experience.",
     sections: [
       {
         heading: "Find the throughline",
         body: [
-          "A memoir needs a focus — a question, transformation, or theme — not your entire life.",
+          "A memoir needs a focus, a question, transformation, or theme, not your entire life.",
           "Choose the moments that serve that throughline and let the rest go.",
         ],
       },

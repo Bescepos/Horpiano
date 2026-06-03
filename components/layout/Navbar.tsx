@@ -49,7 +49,7 @@ export function Navbar() {
       >
         <Logo onDark={onDark} />
 
-        <div className="hidden items-center gap-8 lg:flex">
+        <div className="hidden items-center gap-9 lg:flex">
           {desktopLinks.map((link) => {
             const active = pathname.startsWith(link.href);
             return (
@@ -59,7 +59,7 @@ export function Navbar() {
                 data-active={active}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "link-underline text-[0.95rem] font-medium transition-colors",
+                  "link-underline text-[0.95rem] font-medium tracking-[0.02em] transition-colors",
                   onDark
                     ? "text-white/85 hover:text-white"
                     : "text-navy-700 hover:text-navy-900",

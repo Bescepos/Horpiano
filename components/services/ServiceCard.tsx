@@ -23,7 +23,9 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <span className="flex h-14 w-14 items-center justify-center rounded-xl bg-navy-50 text-navy-700 transition-colors duration-300 group-hover:bg-navy-900 group-hover:text-gold-300">
           <Icon className="h-7 w-7" aria-hidden="true" />
         </span>
-        <h3 className="mt-6 font-serif text-xl text-navy-900">{service.title}</h3>
+        <h3 className="mt-6 font-sans text-xl font-semibold tracking-tight text-navy-900">
+          {service.title}
+        </h3>
         <p className="mt-3 flex-1 text-[0.95rem] leading-relaxed text-ink-muted">
           {service.summary}
         </p>

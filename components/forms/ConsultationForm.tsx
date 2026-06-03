@@ -14,7 +14,7 @@ const serviceOptions = getAllServices().map((s) => ({
   value: s.title,
 }));
 
-const allOptions = [...serviceOptions, { label: "Not sure yet — help me decide", value: "Undecided" }];
+const allOptions = [...serviceOptions, { label: "Not sure yet, help me decide", value: "Undecided" }];
 
 export function ConsultationForm() {
   const [values, setValues] = useState({
@@ -30,7 +30,7 @@ export function ConsultationForm() {
     schema: consultationSchema,
     endpoint: "/api/consultation",
     buildMailto: (data) =>
-      buildMailto("Consultation request — Horpiano", {
+      buildMailto("Consultation request, Horpiano", {
         Name: data.name,
         Email: data.email,
         "Book Title": data.bookTitle,

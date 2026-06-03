@@ -5,7 +5,7 @@ export const siteConfig = {
   url: "https://horpiano.com",
   tagline: "Author Services & Publishing Support",
   description:
-    "Horpiano helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services — from first idea to a published, growing career.",
+    "Horpiano helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services, from first idea to a published, growing career.",
   contactEmail: "horpianog@gmail.com",
   locale: "en_US",
   founded: "2026",

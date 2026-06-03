@@ -18,7 +18,7 @@ export async function POST(request: Request) {
     );
   }
 
-  // Honeypot — silently accept and drop bot submissions.
+  // Honeypot, silently accept and drop bot submissions.
   if (parsed.data.company) {
     return NextResponse.json({ ok: true });
   }

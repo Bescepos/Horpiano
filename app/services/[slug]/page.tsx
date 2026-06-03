@@ -161,7 +161,7 @@ export default async function ServiceDetailPage({
           <Reveal>
             <SectionHeading
               eyebrow="What's Included"
-              title={`${service.title} — in detail`}
+              title={`${service.title}, in detail`}
               subtitle="A complete menu of options, tailored to your project."
             />
           </Reveal>

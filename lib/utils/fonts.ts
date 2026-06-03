@@ -1,16 +1,22 @@
-import { Inter, Playfair_Display } from "next/font/google";
+import { Manrope, Fraunces } from "next/font/google";
 
-export const inter = Inter({
+/** Body + UI text. */
+export const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
-export const playfair = Playfair_Display({
+/**
+ * Editorial display serif for headings. Variable, with the optical-size axis
+ * enabled so large headlines render with the refined, high-contrast character
+ * of a premium editorial typeface.
+ */
+export const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-playfair",
-  weight: ["500", "600", "700"],
+  variable: "--font-serif",
   style: ["normal", "italic"],
+  axes: ["opsz"],
 });

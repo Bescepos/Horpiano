@@ -37,7 +37,7 @@ export default function ResourcesPage() {
         eyebrow="Resources"
         title="The author"
         highlight="knowledge hub"
-        subtitle="Practical advice to help you write, publish, market, and grow — from our team of specialists."
+        subtitle="Practical advice to help you write, publish, market, and grow, from our team of specialists."
       />
 
       <Section background="white" spacing="lg">

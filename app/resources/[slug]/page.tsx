@@ -117,7 +117,7 @@ export default async function ResourceArticlePage({
       <Section background="white" spacing="lg">
         <Container size="narrow">
           <Reveal>
-            <article className="prose prose-navy max-w-none prose-headings:font-serif prose-h2:text-2xl prose-p:leading-relaxed">
+            <article className="prose prose-lg prose-navy max-w-none prose-headings:font-serif prose-headings:font-medium prose-h2:text-[1.75rem] prose-p:leading-[1.8]">
               {article ? (
                 <>
                   <p className="lead text-xl text-charcoal-light">{article.intro}</p>

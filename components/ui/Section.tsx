@@ -19,9 +19,9 @@ const backgrounds = {
 
 const spacings = {
   none: "",
-  sm: "py-14 lg:py-20",
-  md: "py-20 lg:py-28",
-  lg: "py-24 lg:py-36",
+  sm: "py-[56px] md:py-[72px] lg:py-[88px]",
+  md: "py-[72px] md:py-[96px] lg:py-[120px]",
+  lg: "py-[96px] md:py-[112px] lg:py-[140px]",
 };
 
 export function Section({

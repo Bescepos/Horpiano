@@ -11,7 +11,7 @@ export const services: Service[] = [
     hero: {
       heading: "Editorial Services that elevate every page",
       subheading:
-        "Developmental insight, line-level precision, and a meticulous proofread — so your story reaches readers at its very best.",
+        "Developmental insight, line-level precision, and a meticulous proofread, so your story reaches readers at its very best.",
     },
     overview: [
       "Great books are not written, they are rewritten. Our editorial team works alongside you at every level of the craft, from the architecture of your narrative to the rhythm of a single sentence.",
@@ -21,7 +21,7 @@ export const services: Service[] = [
       {
         title: "Genre-matched specialists",
         description:
-          "You work with an editor experienced in your category — fiction, nonfiction, memoir, academic, or children's.",
+          "You work with an editor experienced in your category, fiction, nonfiction, memoir, academic, or children's.",
       },
       {
         title: "Voice-preserving edits",
@@ -45,21 +45,21 @@ export const services: Service[] = [
         title: "Manuscript review",
         description:
           "We read your work in full and assess structure, pacing, voice, and the level of editing it needs.",
-        durationLabel: "3–5 days",
+        durationLabel: "3-5 days",
       },
       {
         step: 2,
         title: "Editorial plan",
         description:
           "You receive a tailored scope, timeline, and quote so expectations are aligned before we begin.",
-        durationLabel: "1–2 days",
+        durationLabel: "1-2 days",
       },
       {
         step: 3,
         title: "The edit",
         description:
-          "Tracked changes plus an editorial letter — developmental, line, copy, or proofread as agreed.",
-        durationLabel: "2–6 weeks",
+          "Tracked changes plus an editorial letter, developmental, line, copy, or proofread as agreed.",
+        durationLabel: "2-6 weeks",
       },
       {
         step: 4,
@@ -72,7 +72,7 @@ export const services: Service[] = [
     subServices: [
       { title: "Manuscript Evaluation", description: "A full diagnostic read with a strategic editorial roadmap." },
       { title: "Developmental Editing", description: "Structure, plot, pacing, character, and argument shaped at the macro level." },
-      { title: "Line Editing", description: "Sentence-level craft — flow, tone, clarity, and style." },
+      { title: "Line Editing", description: "Sentence-level craft, flow, tone, clarity, and style." },
       { title: "Copy Editing", description: "Grammar, consistency, syntax, and a polished house style." },
       { title: "Proofreading", description: "The final quality pass that catches every lingering error." },
       { title: "Beta Reading", description: "Structured reader feedback before you publish or submit." },
@@ -87,7 +87,7 @@ export const services: Service[] = [
       {
         question: "Which type of editing do I need?",
         answer:
-          "Start with a manuscript evaluation. We assess your draft and recommend the right level — developmental, line, copy, or proofreading — so you never pay for editing you don't need.",
+          "Start with a manuscript evaluation. We assess your draft and recommend the right level (developmental, line, copy, or proofreading) so you never pay for editing you don't need.",
       },
       {
         question: "Will editing change my voice?",
@@ -111,7 +111,7 @@ export const services: Service[] = [
   {
     slug: "ghostwriting",
     title: "Ghostwriting",
-    tagline: "Your story, expertly written — in your voice.",
+    tagline: "Your story, expertly written, in your voice.",
     icon: "ghostwriting",
     summary:
       "Have a powerful story or idea but no time to write it? Our ghostwriters turn your vision into a beautifully crafted manuscript that sounds entirely like you.",
@@ -121,7 +121,7 @@ export const services: Service[] = [
         "Partner with a professional writer who captures your voice and transforms your ideas into a finished, publish-ready book.",
     },
     overview: [
-      "You have the story, the expertise, or the message — we provide the craft and the discipline to get it written. Our ghostwriters become a seamless extension of your voice.",
+      "You have the story, the expertise, or the message, we provide the craft and the discipline to get it written. Our ghostwriters become a seamless extension of your voice.",
       "Through structured interviews, careful research, and collaborative drafting, we produce a manuscript you are proud to put your name on, on a timeline that actually finishes.",
     ],
     benefits: [
@@ -144,9 +144,9 @@ export const services: Service[] = [
     ],
     process: [
       { step: 1, title: "Discovery & vision", description: "We map your goals, audience, message, and the shape of the book.", durationLabel: "1 week" },
-      { step: 2, title: "Interviews & research", description: "Recorded sessions and research build the raw material and your voice profile.", durationLabel: "2–4 weeks" },
-      { step: 3, title: "Outline & sample", description: "You approve a chapter outline and a sample chapter before full drafting.", durationLabel: "1–2 weeks" },
-      { step: 4, title: "Drafting & revision", description: "Chapters delivered on a steady cadence with your feedback woven in.", durationLabel: "3–6 months" },
+      { step: 2, title: "Interviews & research", description: "Recorded sessions and research build the raw material and your voice profile.", durationLabel: "2-4 weeks" },
+      { step: 3, title: "Outline & sample", description: "You approve a chapter outline and a sample chapter before full drafting.", durationLabel: "1-2 weeks" },
+      { step: 4, title: "Drafting & revision", description: "Chapters delivered on a steady cadence with your feedback woven in.", durationLabel: "3-6 months" },
     ],
     subServices: [
       { title: "Book Ghostwriting", description: "Full-length fiction or nonfiction written in your voice." },
@@ -159,7 +159,7 @@ export const services: Service[] = [
       { title: "Book Coaching", description: "Guidance and accountability if you'd rather write it yourself." },
     ],
     faqs: [
-      { question: "Will the book really sound like me?", answer: "Yes. We study your speech patterns, prior writing, and interviews to build a voice profile, then write to it. Most clients say it reads exactly as they would have written it — only finished." },
+      { question: "Will the book really sound like me?", answer: "Yes. We study your speech patterns, prior writing, and interviews to build a voice profile, then write to it. Most clients say it reads exactly as they would have written it, only finished." },
       { question: "Is ghostwriting confidential?", answer: "Completely. You are the sole credited author. Our agreements protect your privacy and full ownership of the work." },
       { question: "How long does a ghostwritten book take?", answer: "Most full-length books take three to six months depending on length, research, and your availability for interviews and reviews." },
     ],
@@ -185,7 +185,7 @@ export const services: Service[] = [
     },
     overview: [
       "Design is the first promise your book makes to a reader. Our designers create covers that stop the scroll and interiors that feel effortless to read.",
-      "Every file we deliver is built to the exact specifications of Amazon KDP, IngramSpark, and major retailers — no rejected uploads, no surprises.",
+      "Every file we deliver is built to the exact specifications of Amazon KDP, IngramSpark, and major retailers, no rejected uploads, no surprises.",
     ],
     benefits: [
       { title: "Market-aware covers", description: "Designs benchmarked against bestsellers in your genre so your book belongs on the shelf." },
@@ -194,10 +194,10 @@ export const services: Service[] = [
       { title: "Unlimited brand cohesion", description: "Covers, graphics, and promo assets that share one polished identity." },
     ],
     process: [
-      { step: 1, title: "Creative brief", description: "We gather your genre, comps, audience, and vision for the look and feel.", durationLabel: "2–3 days" },
+      { step: 1, title: "Creative brief", description: "We gather your genre, comps, audience, and vision for the look and feel.", durationLabel: "2-3 days" },
       { step: 2, title: "Concepts", description: "You review initial cover directions and choose a path to refine.", durationLabel: "1 week" },
-      { step: 3, title: "Refinement", description: "We polish the chosen concept and lay out the interior.", durationLabel: "1–2 weeks" },
-      { step: 4, title: "Final files", description: "Print-ready and eBook files delivered, validated against retailer specs.", durationLabel: "2–3 days" },
+      { step: 3, title: "Refinement", description: "We polish the chosen concept and lay out the interior.", durationLabel: "1-2 weeks" },
+      { step: 4, title: "Final files", description: "Print-ready and eBook files delivered, validated against retailer specs.", durationLabel: "2-3 days" },
     ],
     subServices: [
       { title: "Custom Book Cover Design", description: "Original, genre-aware covers that sell." },
@@ -232,7 +232,7 @@ export const services: Service[] = [
     hero: {
       heading: "Publishing Services from manuscript to marketplace",
       subheading:
-        "Setup, distribution, and strategy across Amazon KDP, IngramSpark, and print-on-demand — handled end to end.",
+        "Setup, distribution, and strategy across Amazon KDP, IngramSpark, and print-on-demand, handled end to end.",
     },
     overview: [
       "Publishing well is a series of small, technical decisions that add up to your book's reach and royalties. We make those decisions with you and execute them flawlessly.",
@@ -247,7 +247,7 @@ export const services: Service[] = [
     process: [
       { step: 1, title: "Publishing strategy", description: "We define platforms, pricing, distribution, and your goals.", durationLabel: "1 week" },
       { step: 2, title: "Setup & metadata", description: "Accounts, ISBNs, categories, and keyword-rich metadata prepared.", durationLabel: "1 week" },
-      { step: 3, title: "Upload & proof", description: "Files uploaded, proofs reviewed, and listings perfected.", durationLabel: "1–2 weeks" },
+      { step: 3, title: "Upload & proof", description: "Files uploaded, proofs reviewed, and listings perfected.", durationLabel: "1-2 weeks" },
       { step: 4, title: "Launch & distribute", description: "Your book goes live and flows out to retailers and libraries.", durationLabel: "Ongoing" },
     ],
     subServices: [
@@ -286,7 +286,7 @@ export const services: Service[] = [
         "A distinctive identity, a professional website, and a presence that makes you unforgettable to readers and the industry.",
     },
     overview: [
-      "Books sell more when they come from an author readers feel they know. Branding is how you become that author — consistent, credible, and memorable everywhere you appear.",
+      "Books sell more when they come from an author readers feel they know. Branding is how you become that author, consistent, credible, and memorable everywhere you appear.",
       "We define your positioning, design your visual identity, and build the digital home base that anchors your entire author career.",
     ],
     benefits: [
@@ -297,8 +297,8 @@ export const services: Service[] = [
     ],
     process: [
       { step: 1, title: "Brand discovery", description: "We uncover your story, audience, values, and goals.", durationLabel: "1 week" },
-      { step: 2, title: "Strategy & identity", description: "Positioning, messaging, and visual direction defined.", durationLabel: "1–2 weeks" },
-      { step: 3, title: "Build & design", description: "Website, media kit, and profiles created and written.", durationLabel: "2–4 weeks" },
+      { step: 2, title: "Strategy & identity", description: "Positioning, messaging, and visual direction defined.", durationLabel: "1-2 weeks" },
+      { step: 3, title: "Build & design", description: "Website, media kit, and profiles created and written.", durationLabel: "2-4 weeks" },
       { step: 4, title: "Launch & guidelines", description: "Everything goes live with a guide to keep it consistent.", durationLabel: "1 week" },
     ],
     subServices: [
@@ -310,7 +310,7 @@ export const services: Service[] = [
       { title: "Brand Strategy Development", description: "A roadmap that aligns every touchpoint." },
     ],
     faqs: [
-      { question: "I only have one book — do I need a brand?", answer: "Even more so. A strong author brand helps a single title punch above its weight and lays the foundation for everything you publish next." },
+      { question: "I only have one book, do I need a brand?", answer: "Even more so. A strong author brand helps a single title punch above its weight and lays the foundation for everything you publish next." },
       { question: "Do you build the website too?", answer: "Yes. Author website development is core to our branding work, paired with a media kit, bios, and optimized profiles." },
       { question: "What makes an author brand effective?", answer: "Clarity and consistency. A focused message and a cohesive look across every platform make you recognizable and trustworthy to readers and the industry." },
     ],
@@ -332,14 +332,14 @@ export const services: Service[] = [
     hero: {
       heading: "Book Marketing that finds your readers",
       subheading:
-        "Launch campaigns, advertising, outreach, and reviews — engineered to grow visibility and sales.",
+        "Launch campaigns, advertising, outreach, and reviews, engineered to grow visibility and sales.",
     },
     overview: [
       "Marketing is the bridge between your finished book and the readers waiting for it. We build that bridge with strategy, creativity, and measurable campaigns.",
       "From a high-impact launch to sustained advertising and outreach, we focus on the activities that actually convert attention into sales and lasting readership.",
     ],
     benefits: [
-      { title: "Strategy, not guesswork", description: "Campaigns built on your genre, audience, and goals — and measured." },
+      { title: "Strategy, not guesswork", description: "Campaigns built on your genre, audience, and goals, and measured." },
       { title: "Visibility where it counts", description: "We prioritize the channels most likely to reach your readers." },
       { title: "Social proof that sells", description: "Ethical review campaigns build the credibility buyers look for." },
       { title: "Sustainable momentum", description: "We turn a launch spike into long-term, repeatable sales." },
@@ -347,7 +347,7 @@ export const services: Service[] = [
     process: [
       { step: 1, title: "Marketing audit", description: "We assess your book, audience, assets, and opportunities.", durationLabel: "1 week" },
       { step: 2, title: "Campaign plan", description: "A clear strategy across launch, ads, outreach, and reviews.", durationLabel: "1 week" },
-      { step: 3, title: "Execution", description: "We run the campaigns, create assets, and manage outreach.", durationLabel: "4–8 weeks" },
+      { step: 3, title: "Execution", description: "We run the campaigns, create assets, and manage outreach.", durationLabel: "4-8 weeks" },
       { step: 4, title: "Optimize & report", description: "We track performance and double down on what works.", durationLabel: "Ongoing" },
     ],
     subServices: [
@@ -364,7 +364,7 @@ export const services: Service[] = [
       { title: "Advertising Campaign Management", description: "Paid campaigns managed for return on spend." },
     ],
     faqs: [
-      { question: "When should marketing start?", answer: "Ideally before launch. Pre-launch momentum — list building, reviews, and buzz — makes the launch itself far more effective, but we can also revive sales for existing titles." },
+      { question: "When should marketing start?", answer: "Ideally before launch. Pre-launch momentum, list building, reviews, and buzz, makes the launch itself far more effective, but we can also revive sales for existing titles." },
       { question: "Do you guarantee bestseller status?", answer: "No reputable partner can guarantee a title. We focus on the ethical, data-driven activities that maximize your realistic chances of strong, sustainable sales." },
       { question: "Which channels work best?", answer: "It varies by genre and audience. We identify the highest-leverage channels for your book rather than spreading effort thin across all of them." },
     ],
@@ -389,7 +389,7 @@ export const services: Service[] = [
         "Websites, automations, funnels, and systems that turn visitors into readers and readers into fans.",
     },
     overview: [
-      "Behind every successful author is a set of systems doing quiet, consistent work — capturing emails, selling books, and nurturing readers around the clock.",
+      "Behind every successful author is a set of systems doing quiet, consistent work, capturing emails, selling books, and nurturing readers around the clock.",
       "We design, build, and maintain that infrastructure so the technology serves your writing career instead of getting in its way.",
     ],
     benefits: [
@@ -401,7 +401,7 @@ export const services: Service[] = [
     process: [
       { step: 1, title: "Tech audit", description: "We map your goals and the systems you need.", durationLabel: "1 week" },
       { step: 2, title: "Architecture", description: "We design the website, funnel, and automation flow.", durationLabel: "1 week" },
-      { step: 3, title: "Build & integrate", description: "We build, connect, and test every piece.", durationLabel: "2–4 weeks" },
+      { step: 3, title: "Build & integrate", description: "We build, connect, and test every piece.", durationLabel: "2-4 weeks" },
       { step: 4, title: "Maintain & improve", description: "Ongoing support, updates, and optimization.", durationLabel: "Ongoing" },
     ],
     subServices: [
@@ -417,7 +417,7 @@ export const services: Service[] = [
     faqs: [
       { question: "Do I need a website if I'm on Amazon?", answer: "Yes. A website is the one platform you own. It builds your email list, hosts your funnels, and keeps you independent of any single retailer's rules." },
       { question: "Can you maintain my existing site?", answer: "Absolutely. We offer ongoing maintenance, updates, and improvements whether we built your site or not." },
-      { question: "What is a sales funnel for an author?", answer: "It's a simple, guided path — often a landing page, free chapter, and email sequence — that turns a curious visitor into an engaged reader and buyer." },
+      { question: "What is a sales funnel for an author?", answer: "It's a simple, guided path, often a landing page, free chapter, and email sequence, that turns a curious visitor into an engaged reader and buyer." },
     ],
     cta: {
       heading: "Let technology grow your readership",
@@ -433,14 +433,14 @@ export const services: Service[] = [
     tagline: "Expert guidance for every stage of your journey.",
     icon: "coaching",
     summary:
-      "Sometimes you don't need it done for you — you need a seasoned guide. Our coaching gives you clarity, strategy, and accountability to move forward.",
+      "Sometimes you don't need it done for you, you need a seasoned guide. Our coaching gives you clarity, strategy, and accountability to move forward.",
     hero: {
       heading: "Author Coaching for clarity and momentum",
       subheading:
         "One-to-one guidance, planning, and strategy to help you write, publish, and grow with confidence.",
     },
     overview: [
-      "Writing and publishing can feel isolating and overwhelming. A great coach turns that uncertainty into a clear, achievable plan — and keeps you moving.",
+      "Writing and publishing can feel isolating and overwhelming. A great coach turns that uncertainty into a clear, achievable plan, and keeps you moving.",
       "Whether you're stuck on chapter three or deciding how to build a career, our consultants bring publishing experience and honest, personalized advice.",
     ],
     benefits: [
@@ -464,7 +464,7 @@ export const services: Service[] = [
       { title: "Career Development Support", description: "Long-term planning for a sustainable author career." },
     ],
     faqs: [
-      { question: "How is coaching different from editing?", answer: "Editing improves a finished draft; coaching guides you through the process — planning, decision-making, accountability, and strategy — so you reach the finish line and beyond." },
+      { question: "How is coaching different from editing?", answer: "Editing improves a finished draft; coaching guides you through the process (planning, decision-making, accountability, and strategy) so you reach the finish line and beyond." },
       { question: "Can coaching be a one-off session?", answer: "Yes. Many authors start with a single consultation to get unstuck, then continue with ongoing coaching if it's helpful." },
       { question: "Who are the coaches?", answer: "Experienced publishing professionals who have guided authors through writing, publishing, and career growth across genres." },
     ],
@@ -500,9 +500,9 @@ export const services: Service[] = [
     ],
     process: [
       { step: 1, title: "Audio strategy", description: "We plan narration style, budget, and distribution.", durationLabel: "1 week" },
-      { step: 2, title: "Narrator selection", description: "Auditions and casting to find your ideal voice.", durationLabel: "1–2 weeks" },
-      { step: 3, title: "Production", description: "Recording, editing, and mastering managed for quality.", durationLabel: "4–8 weeks" },
-      { step: 4, title: "Distribution", description: "Your finished audiobook is published to platforms.", durationLabel: "1–2 weeks" },
+      { step: 2, title: "Narrator selection", description: "Auditions and casting to find your ideal voice.", durationLabel: "1-2 weeks" },
+      { step: 3, title: "Production", description: "Recording, editing, and mastering managed for quality.", durationLabel: "4-8 weeks" },
+      { step: 4, title: "Distribution", description: "Your finished audiobook is published to platforms.", durationLabel: "1-2 weeks" },
     ],
     subServices: [
       { title: "Audiobook Production Coordination", description: "End-to-end management of your audio production." },
@@ -511,7 +511,7 @@ export const services: Service[] = [
       { title: "Audio Publishing Consultation", description: "Strategic advice for your audiobook." },
     ],
     faqs: [
-      { question: "Should I narrate my own book?", answer: "Sometimes — especially for memoir and nonfiction. We'll advise honestly based on your book and comfort, and help you cast a professional narrator if that's the better fit." },
+      { question: "Should I narrate my own book?", answer: "Sometimes, especially for memoir and nonfiction. We'll advise honestly based on your book and comfort, and help you cast a professional narrator if that's the better fit." },
       { question: "Where will my audiobook be available?", answer: "We support distribution to the major audiobook platforms so your title reaches the widest possible listening audience." },
       { question: "How much does an audiobook cost?", answer: "It depends on length and narration model. We'll outline clear options and budgets during your consultation." },
     ],
@@ -533,7 +533,7 @@ export const services: Service[] = [
     hero: {
       heading: "Legal & Rights Support for confident authors",
       subheading:
-        "Practical guidance on copyright, agreements, licensing, and rights — so you protect what you create.",
+        "Practical guidance on copyright, agreements, licensing, and rights, so you protect what you create.",
     },
     overview: [
       "Publishing involves contracts and rights decisions that can shape your earnings for years. Understanding them is essential to protecting your work.",
@@ -548,7 +548,7 @@ export const services: Service[] = [
     process: [
       { step: 1, title: "Needs review", description: "We identify the rights and agreements involved.", durationLabel: "1 week" },
       { step: 2, title: "Guidance session", description: "We explain your options and what to watch for.", durationLabel: "1 session" },
-      { step: 3, title: "Document review", description: "We review agreements and flag key terms in plain language.", durationLabel: "1–2 weeks" },
+      { step: 3, title: "Document review", description: "We review agreements and flag key terms in plain language.", durationLabel: "1-2 weeks" },
       { step: 4, title: "Recommendations", description: "You leave with clear, practical next steps.", durationLabel: "Ongoing" },
     ],
     subServices: [
@@ -561,7 +561,7 @@ export const services: Service[] = [
     faqs: [
       { question: "Is this legal advice?", answer: "We provide informational guidance to help you understand copyright, contracts, and rights. For binding legal advice on complex matters, we'll recommend consulting a licensed attorney." },
       { question: "Do I need to register my copyright?", answer: "Your work is protected on creation, but formal registration can strengthen your position. We'll explain the practical benefits for your situation." },
-      { question: "Can you review a publishing contract?", answer: "Yes. We review agreements and explain the key terms — rights, royalties, territories, and reversion — in plain language so you sign with confidence." },
+      { question: "Can you review a publishing contract?", answer: "Yes. We review agreements and explain the key terms, rights, royalties, territories, and reversion, in plain language so you sign with confidence." },
     ],
     cta: {
       heading: "Publish protected and informed",
@@ -584,7 +584,7 @@ export const services: Service[] = [
         "Launches, workshops, webinars, and reader communities designed to build lasting connection.",
     },
     overview: [
-      "The most resilient author careers are powered by community — readers who show up, share your work, and follow you from book to book.",
+      "The most resilient author careers are powered by community, readers who show up, share your work, and follow you from book to book.",
       "We help you plan the launches, events, and gatherings that create those relationships and keep your audience engaged over time.",
     ],
     benefits: [
@@ -595,7 +595,7 @@ export const services: Service[] = [
     ],
     process: [
       { step: 1, title: "Goals & format", description: "We define the event or community and its purpose.", durationLabel: "1 week" },
-      { step: 2, title: "Planning", description: "Logistics, promotion, and content mapped out.", durationLabel: "2–3 weeks" },
+      { step: 2, title: "Planning", description: "Logistics, promotion, and content mapped out.", durationLabel: "2-3 weeks" },
       { step: 3, title: "Run the event", description: "We help you deliver a smooth, engaging experience.", durationLabel: "Event day" },
       { step: 4, title: "Nurture & grow", description: "Follow-up that turns attendees into a community.", durationLabel: "Ongoing" },
     ],

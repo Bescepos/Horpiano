@@ -46,7 +46,7 @@ export const faqs: FAQItem[] = [
     category: "editing",
     question: "How do I know which type of editing I need?",
     answer:
-      "Start with a manuscript evaluation. We assess your draft and recommend the right level — developmental, line, copy, or proofreading — so you only pay for the editing you actually need.",
+      "Start with a manuscript evaluation. We assess your draft and recommend the right level (developmental, line, copy, or proofreading) so you only pay for the editing you actually need.",
   },
   {
     id: "f-edit-2",
@@ -90,7 +90,7 @@ export const faqs: FAQItem[] = [
     category: "marketing",
     question: "When should I start marketing my book?",
     answer:
-      "Ideally before launch. Pre-launch momentum — list building, early reviews, and buzz — makes the launch itself far more effective. We can also revive sales for existing titles.",
+      "Ideally before launch. Pre-launch momentum, list building, early reviews, and buzz, makes the launch itself far more effective. We can also revive sales for existing titles.",
   },
   {
     id: "f-mkt-2",
@@ -119,7 +119,7 @@ export const faqs: FAQItem[] = [
     category: "copyright",
     question: "Can you review my publishing contract?",
     answer:
-      "Yes. We review agreements and explain the key terms — rights, royalties, territories, and reversion — in plain language so you can sign with confidence.",
+      "Yes. We review agreements and explain the key terms, rights, royalties, territories, and reversion, in plain language so you can sign with confidence.",
   },
   {
     id: "f-copy-3",
@@ -134,7 +134,7 @@ export const faqs: FAQItem[] = [
     category: "audiobooks",
     question: "Should I narrate my own audiobook?",
     answer:
-      "Sometimes — especially for memoir and nonfiction. We advise honestly based on your book and comfort, and help you cast a professional narrator when that's the better fit.",
+      "Sometimes, especially for memoir and nonfiction. We advise honestly based on your book and comfort, and help you cast a professional narrator when that's the better fit.",
   },
   {
     id: "f-audio-2",
@@ -147,7 +147,7 @@ export const faqs: FAQItem[] = [
   {
     id: "f-brand-1",
     category: "branding",
-    question: "I only have one book — do I need an author brand?",
+    question: "I only have one book, do I need an author brand?",
     answer:
       "Even more so. A strong author brand helps a single title punch above its weight and creates the foundation for everything you publish next.",
   },

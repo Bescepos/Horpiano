@@ -12,7 +12,7 @@ export function Logo({ onDark, className }: LogoProps) {
   return (
     <Link
       href="/"
-      aria-label={`${siteConfig.name} — home`}
+      aria-label={`${siteConfig.name}, home`}
       className={cn("group inline-flex items-center gap-2.5", className)}
     >
       <BrandMark className="h-9 w-9 transition-transform duration-300 group-hover:-rotate-3" />

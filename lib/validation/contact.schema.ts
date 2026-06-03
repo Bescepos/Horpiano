@@ -8,7 +8,7 @@ export const contactSchema = z.object({
     .string()
     .min(10, "Please share a few more details (at least 10 characters).")
     .max(4000),
-  // Honeypot — must remain empty.
+  // Honeypot, must remain empty.
   company: z.string().max(0).optional().or(z.literal("")),
 });
 

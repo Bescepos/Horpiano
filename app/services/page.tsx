@@ -14,7 +14,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Services",
   description:
-    "Explore Horpiano's full suite of author services — editorial, ghostwriting, design, publishing, branding, marketing, coaching, audiobooks, rights, and more.",
+    "Explore Horpiano's full suite of author services, editorial, ghostwriting, design, publishing, branding, marketing, coaching, audiobooks, rights, and more.",
   path: "/services",
 });
 
@@ -51,7 +51,7 @@ export default function ServicesPage() {
         <Container size="narrow">
           <Reveal>
             <p className="mb-10 text-center text-lg leading-relaxed text-ink-muted">
-              Eleven service families, dozens of specialized offerings — all delivered by
+              Eleven service families, dozens of specialized offerings, all delivered by
               specialists who understand your genre and your goals. Expand any area to see
               exactly how we can help.
             </p>

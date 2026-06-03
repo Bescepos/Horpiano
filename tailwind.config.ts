@@ -59,10 +59,10 @@ const config: Config = {
         ink: {
           muted: "#5B636E",
         },
-        "light-gray": "#EEF1F5",
-        "gray-line": "#DCE1E8",
-        "off-white": "#F8FAFC",
-        cream: "#FBF8F1",
+        "light-gray": "#EFEDE8",
+        "gray-line": "#E4E1D9",
+        "off-white": "#F8F7F4",
+        cream: "#FAF6EC",
         // Semantic aliases
         primary: "#101D30",
         accent: "#C8992E",
@@ -70,15 +70,15 @@ const config: Config = {
         error: "#C0392B",
       },
       fontFamily: {
-        serif: ["var(--font-playfair)", "Georgia", "Cambria", "serif"],
-        sans: ["var(--font-inter)", "system-ui", "-apple-system", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "Cambria", "serif"],
+        sans: ["var(--font-sans)", "system-ui", "-apple-system", "sans-serif"],
       },
       fontSize: {
-        "display-2xl": ["4.5rem", { lineHeight: "1.05", letterSpacing: "-0.02em" }],
-        "display-xl": ["3.5rem", { lineHeight: "1.08", letterSpacing: "-0.02em" }],
-        "display-lg": ["2.75rem", { lineHeight: "1.1", letterSpacing: "-0.01em" }],
-        "display-md": ["2.25rem", { lineHeight: "1.15", letterSpacing: "-0.01em" }],
-        "display-sm": ["1.75rem", { lineHeight: "1.2", letterSpacing: "-0.005em" }],
+        "display-2xl": ["5.5rem", { lineHeight: "1.05", letterSpacing: "-0.025em" }],
+        "display-xl": ["4.5rem", { lineHeight: "1.07", letterSpacing: "-0.022em" }],
+        "display-lg": ["3.5rem", { lineHeight: "1.12", letterSpacing: "-0.018em" }],
+        "display-md": ["3rem", { lineHeight: "1.15", letterSpacing: "-0.015em" }],
+        "display-sm": ["2.25rem", { lineHeight: "1.2", letterSpacing: "-0.01em" }],
       },
       boxShadow: {
         soft: "0 2px 8px -2px rgb(16 29 48 / 0.08), 0 4px 16px -4px rgb(16 29 48 / 0.06)",

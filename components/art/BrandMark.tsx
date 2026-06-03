@@ -4,7 +4,7 @@ interface BrandMarkProps {
   className?: string;
 }
 
-/** Horpiano monogram — an open-book / "H" mark in brand gold. */
+/** Horpiano monogram, an open-book / "H" mark in brand gold. */
 export function BrandMark({ className }: BrandMarkProps) {
   return (
     <svg

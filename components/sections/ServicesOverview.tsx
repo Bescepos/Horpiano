@@ -17,7 +17,7 @@ export function ServicesOverview() {
           <SectionHeading
             eyebrow="What We Do"
             title="Everything your book needs, under one roof"
-            subtitle="A complete suite of author services — so you can move from manuscript to market with one trusted partner at every step."
+            subtitle="A complete suite of author services, so you can move from manuscript to market with one trusted partner at every step."
           />
         </Reveal>
 

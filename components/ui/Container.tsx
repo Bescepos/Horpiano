@@ -10,7 +10,7 @@ interface ContainerProps {
 
 const sizes = {
   default: "max-w-7xl",
-  narrow: "max-w-3xl",
+  narrow: "max-w-[760px]",
   wide: "max-w-[1440px]",
 };
 

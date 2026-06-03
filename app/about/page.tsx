@@ -31,7 +31,7 @@ const values = [
   {
     icon: "shield",
     title: "Integrity",
-    description: "Honest advice, transparent pricing, and your ownership protected — always.",
+    description: "Honest advice, transparent pricing, and your ownership protected, always.",
   },
   {
     icon: "branding",
@@ -46,7 +46,7 @@ const values = [
   {
     icon: "growth",
     title: "Author Success",
-    description: "Your goals drive ours — we measure our work by your results.",
+    description: "Your goals drive ours; we measure our work by your results.",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function AboutPage() {
         eyebrow="About Horpiano"
         title="A partner devoted to"
         highlight="author success"
-        subtitle="We bring together editors, designers, marketers, and strategists under one roof — so writers never have to navigate publishing alone."
+        subtitle="We bring together editors, designers, marketers, and strategists under one roof, so writers never have to navigate publishing alone."
       />
 
       {/* Story */}
@@ -86,7 +86,7 @@ export default function AboutPage() {
               <p>
                 Horpiano was founded on a simple belief: every author deserves a team of
                 experts in their corner. Too many brilliant manuscripts never reach readers
-                — not for lack of talent, but for lack of guidance through a complex,
+               , not for lack of talent, but for lack of guidance through a complex,
                 ever-changing industry.
               </p>
               <p>
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 <span className="eyebrow text-gold-300">Our Vision</span>
                 <p className="mt-4 font-serif text-2xl leading-relaxed text-white sm:text-3xl">
                   A world where every author has the guidance and tools to share their story
-                  with confidence — and build a career that lasts.
+                  with confidence, and build a career that lasts.
                 </p>
               </GlassCard>
             </Reveal>
@@ -169,7 +169,7 @@ export default function AboutPage() {
             <SectionHeading
               eyebrow="Our Team"
               title="The specialists in your corner"
-              subtitle="A multidisciplinary team united by one goal — your success as an author."
+              subtitle="A multidisciplinary team united by one goal: your success as an author."
             />
           </Reveal>
           <StaggerContainer className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

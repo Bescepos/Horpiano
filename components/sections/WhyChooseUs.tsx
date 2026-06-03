@@ -11,7 +11,7 @@ const benefits = [
   {
     title: "End-to-End Author Support",
     description:
-      "Editing, design, publishing, marketing, and growth — every stage handled by one trusted team.",
+      "Editing, design, publishing, marketing, and growth, every stage handled by one trusted team.",
   },
   {
     title: "Experienced Specialists",
@@ -31,7 +31,7 @@ const benefits = [
   {
     title: "Long-Term Growth Focus",
     description:
-      "We build careers, not just titles — so your success compounds with every book.",
+      "We build careers, not just titles, so your success compounds with every book.",
   },
 ];
 
