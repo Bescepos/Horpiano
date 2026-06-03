@@ -7,9 +7,11 @@ export const siteConfig = {
   description:
     "emilybyron helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services, from first idea to a published, growing career.",
   contactEmail: "horpianog@gmail.com",
+  /** Additional email shown on the contact page. Leave "" to hide. */
+  secondaryEmail: "trustedreviewservices@gmail.com",
   /** WhatsApp number in international format, digits only (country code + number,
    *  no "+", spaces, or dashes), e.g. "15551234567". Leave "" to hide the link. */
-  whatsapp: "",
+  whatsapp: "17823330405",
   /** Telegram username without the "@", e.g. "emilybyron". Leave "" to hide the link. */
   telegram: "Authorstrategist",
   /** Google Calendar appointment scheduling link used by the "Book a Consultation" CTAs. */

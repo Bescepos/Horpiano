@@ -85,10 +85,18 @@ export default function ContactPage() {
                       <p className="font-semibold text-navy-900">Email</p>
                       <a
                         href={`mailto:${siteConfig.contactEmail}`}
-                        className="text-gold-700 transition-colors hover:text-gold-800"
+                        className="block text-gold-700 transition-colors hover:text-gold-800"
                       >
                         {siteConfig.contactEmail}
                       </a>
+                      {siteConfig.secondaryEmail ? (
+                        <a
+                          href={`mailto:${siteConfig.secondaryEmail}`}
+                          className="block text-gold-700 transition-colors hover:text-gold-800"
+                        >
+                          {siteConfig.secondaryEmail}
+                        </a>
+                      ) : null}
                     </div>
                   </li>
                   {siteConfig.whatsapp ? (
