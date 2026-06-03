@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Mail, MapPin, Clock } from "lucide-react";
+import { WhatsAppIcon, TelegramIcon } from "@/components/art/ChatIcons";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -29,6 +30,9 @@ const socialInitials: Record<string, string> = {
 };
 
 export default function ContactPage() {
+  const waHref = siteConfig.whatsapp ? `https://wa.me/${siteConfig.whatsapp}` : "#";
+  const tgHref = siteConfig.telegram ? `https://t.me/${siteConfig.telegram}` : "#";
+
   return (
     <>
       <JsonLd
@@ -84,6 +88,38 @@ export default function ContactPage() {
                         className="text-gold-700 transition-colors hover:text-gold-800"
                       >
                         {siteConfig.contactEmail}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
+                      <WhatsAppIcon className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <p className="font-semibold text-navy-900">WhatsApp</p>
+                      <a
+                        href={waHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gold-700 transition-colors hover:text-gold-800"
+                      >
+                        Chat on WhatsApp
+                      </a>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
+                      <TelegramIcon className="h-5 w-5" />
+                    </span>
+                    <div>
+                      <p className="font-semibold text-navy-900">Telegram</p>
+                      <a
+                        href={tgHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gold-700 transition-colors hover:text-gold-800"
+                      >
+                        Message on Telegram
                       </a>
                     </div>
                   </li>
