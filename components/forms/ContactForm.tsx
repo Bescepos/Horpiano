@@ -117,7 +117,7 @@ export function ContactForm() {
 
       <div className="flex flex-wrap items-center gap-4">
         <Button type="submit" size="lg" disabled={status === "submitting"}>
-          {status === "submitting" ? "Sending..." : "Send Message"}
+          {status === "submitting" ? "Submitting..." : "Submit"}
           <Mail className="h-4 w-4" aria-hidden="true" />
         </Button>
         <p className="text-sm text-ink-muted">
