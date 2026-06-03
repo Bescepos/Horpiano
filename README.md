@@ -1,6 +1,6 @@
-# Horpiano
+# emilybyron
 
-A premium, production-ready marketing website for **Horpiano** — a professional author
+A premium, production-ready marketing website for **emilybyron** — a professional author
 services and publishing-support brand. Built with Next.js (App Router), TypeScript, Tailwind
 CSS, and Framer Motion.
 

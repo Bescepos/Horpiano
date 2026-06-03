@@ -30,7 +30,7 @@ export function ConsultationForm() {
     schema: consultationSchema,
     endpoint: "/api/consultation",
     buildMailto: (data) =>
-      buildMailto("Consultation request, Horpiano", {
+      buildMailto("Consultation request, emilybyron", {
         Name: data.name,
         Email: data.email,
         "Book Title": data.bookTitle,

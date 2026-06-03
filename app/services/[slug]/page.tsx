@@ -119,7 +119,7 @@ export default async function ServiceDetailPage({
             <SectionHeading
               eyebrow="Benefits"
               title="What you gain"
-              subtitle={`The advantages of choosing Horpiano for ${service.title.toLowerCase()}.`}
+              subtitle={`The advantages of choosing emilybyron for ${service.title.toLowerCase()}.`}
             />
           </Reveal>
           <StaggerContainer className="mt-12 grid gap-6 sm:grid-cols-2">

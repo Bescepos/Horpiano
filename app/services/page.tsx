@@ -15,7 +15,7 @@ import { siteConfig } from "@/lib/seo/siteConfig";
 export const metadata: Metadata = buildMetadata({
   title: "Services",
   description:
-    "Explore Horpiano's full suite of author services, editorial, ghostwriting, design, publishing, branding, marketing, coaching, audiobooks, rights, and more.",
+    "Explore emilybyron's full suite of author services, editorial, ghostwriting, design, publishing, branding, marketing, coaching, audiobooks, rights, and more.",
   path: "/services",
 });
 

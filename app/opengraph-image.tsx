@@ -59,7 +59,7 @@ export default function OpengraphImage() {
             letterSpacing: 1,
           }}
         >
-          Horpiano
+          emilybyron
         </div>
       </div>
     ),

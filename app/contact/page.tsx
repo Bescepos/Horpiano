@@ -17,7 +17,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
   description:
-    "Get in touch with Horpiano. Email horpianog@gmail.com or send us a message, we typically respond within one business day.",
+    "Get in touch with emilybyron. Email horpianog@gmail.com or send us a message, we typically respond within one business day.",
   path: "/contact",
 });
 

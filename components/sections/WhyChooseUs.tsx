@@ -46,7 +46,7 @@ export function WhyChooseUs() {
               <SectionHeading
                 align="left"
                 onDark
-                eyebrow="Why Horpiano"
+                eyebrow="Why emilybyron"
                 title="The partner serious authors choose"
                 subtitle="We combine the craft of a literary agency with the strategy of a modern publishing consultancy."
               />

@@ -4,7 +4,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     quote:
-      "Horpiano took a messy first draft I'd nearly given up on and turned it into a book I'm genuinely proud of. Their developmental editor understood my story better than I did.",
+      "emilybyron took a messy first draft I'd nearly given up on and turned it into a book I'm genuinely proud of. Their developmental editor understood my story better than I did.",
     authorName: "Eleanor Hayes",
     authorRole: "Author of The Quiet Tide",
     rating: 5,
@@ -74,7 +74,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t8",
     quote:
-      "Turning my book into an audiobook opened a whole new audience. Horpiano made a complicated process feel effortless.",
+      "Turning my book into an audiobook opened a whole new audience. emilybyron made a complicated process feel effortless.",
     authorName: "Thomas Reid",
     authorRole: "Historical Fiction Author",
     rating: 5,

@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "Horpiano",
-  legalName: "Horpiano",
+  name: "emilybyron",
+  legalName: "emilybyron",
   /** Update to the production domain when deployed. */
-  url: "https://horpiano.com",
+  url: "https://emilybyron.com",
   tagline: "Author Services & Publishing Support",
   description:
-    "Horpiano helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services, from first idea to a published, growing career.",
+    "emilybyron helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services, from first idea to a published, growing career.",
   contactEmail: "horpianog@gmail.com",
   /** Google Calendar appointment scheduling link used by the "Book a Consultation" CTAs. */
   bookingUrl: "https://calendar.app.google/KcuQgTX2FBiLDsAg9",

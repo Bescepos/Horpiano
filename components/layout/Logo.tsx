@@ -22,7 +22,7 @@ export function Logo({ onDark, className }: LogoProps) {
           onDark ? "text-white" : "text-navy-900",
         )}
       >
-        Horpiano
+        emilybyron
       </span>
     </Link>
   );

@@ -13,7 +13,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Resources",
   description:
-    "Writing tips, publishing guides, author branding, marketing strategies, and industry insights from the Horpiano team.",
+    "Writing tips, publishing guides, author branding, marketing strategies, and industry insights from the emilybyron team.",
   path: "/resources",
 });
 

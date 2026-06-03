@@ -5,7 +5,7 @@ interface BuildMetadataInput {
   title: string;
   description?: string;
   path?: string;
-  /** When true the title is used verbatim (no "| Horpiano" suffix). */
+  /** When true the title is used verbatim (no "| emilybyron" suffix). */
   absoluteTitle?: boolean;
 }
 

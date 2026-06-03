@@ -17,7 +17,7 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Book a Consultation",
   description:
-    "Book a free, no-obligation consultation with Horpiano. Share your project and get a personalized roadmap to write, publish, and grow.",
+    "Book a free, no-obligation consultation with emilybyron. Share your project and get a personalized roadmap to write, publish, and grow.",
   path: "/consultation",
 });
 

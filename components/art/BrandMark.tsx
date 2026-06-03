@@ -4,14 +4,14 @@ interface BrandMarkProps {
   className?: string;
 }
 
-/** Horpiano monogram, an open-book / "H" mark in brand gold. */
+/** emilybyron monogram, an open-book / "H" mark in brand gold. */
 export function BrandMark({ className }: BrandMarkProps) {
   return (
     <svg
       viewBox="0 0 40 40"
       className={cn("h-9 w-9", className)}
       role="img"
-      aria-label="Horpiano"
+      aria-label="emilybyron"
     >
       <defs>
         <linearGradient id="hp-gold" x1="0" y1="0" x2="1" y2="1">

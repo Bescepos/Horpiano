@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, faqPageJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "FAQ",
   description:
-    "Answers to common questions about publishing, editing, ghostwriting, marketing, copyright, audiobooks, and author branding with Horpiano.",
+    "Answers to common questions about publishing, editing, ghostwriting, marketing, copyright, audiobooks, and author branding with emilybyron.",
   path: "/faq",
 });
 
@@ -37,7 +37,7 @@ export default function FAQPage() {
         eyebrow="FAQ"
         title="Frequently asked"
         highlight="questions"
-        subtitle="Everything you need to know about working with Horpiano. Filter by topic or browse them all."
+        subtitle="Everything you need to know about working with emilybyron. Filter by topic or browse them all."
       />
 
       <Section background="white" spacing="lg">

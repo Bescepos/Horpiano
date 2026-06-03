@@ -18,7 +18,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "Horpiano is a premium author-services agency on a mission to empower writers to successfully write, publish, market, and grow their literary careers.",
+    "emilybyron is a premium author-services agency on a mission to empower writers to successfully write, publish, market, and grow their literary careers.",
   path: "/about",
 });
 
@@ -71,7 +71,7 @@ export default function AboutPage() {
           { name: "Home", path: "/" },
           { name: "About", path: "/about" },
         ]}
-        eyebrow="About Horpiano"
+        eyebrow="About emilybyron"
         title="A partner devoted to"
         highlight="author success"
         subtitle="We bring together editors, designers, marketers, and strategists under one roof, so writers never have to navigate publishing alone."
@@ -84,7 +84,7 @@ export default function AboutPage() {
             <SectionHeading align="left" eyebrow="Our Story" title="Built for the modern author" />
             <div className="mt-6 space-y-4 text-lg leading-relaxed text-charcoal-light">
               <p>
-                Horpiano was founded on a simple belief: every author deserves a team of
+                emilybyron was founded on a simple belief: every author deserves a team of
                 experts in their corner. Too many brilliant manuscripts never reach readers
                , not for lack of talent, but for lack of guidance through a complex,
                 ever-changing industry.
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 journey alongside the writers we serve.
               </p>
               <p>
-                Today, Horpiano supports authors across genres and around the world, helping
+                Today, emilybyron supports authors across genres and around the world, helping
                 them turn ideas into published, growing literary careers.
               </p>
             </div>

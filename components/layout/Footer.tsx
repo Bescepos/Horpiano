@@ -125,7 +125,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-navy-300 sm:flex-row">
-          <p>© {year} Horpiano. All Rights Reserved.</p>
+          <p>© {year} emilybyron. All Rights Reserved.</p>
           <p className="font-serif italic text-navy-200">
             From idea to published success.
           </p>

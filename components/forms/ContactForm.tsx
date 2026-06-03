@@ -14,7 +14,7 @@ export function ContactForm() {
     schema: contactSchema,
     endpoint: "/api/contact",
     buildMailto: (data) =>
-      buildMailto(data.subject || "New message via Horpiano", {
+      buildMailto(data.subject || "New message via emilybyron", {
         Name: data.name,
         Email: data.email,
         Subject: data.subject,

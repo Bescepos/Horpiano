@@ -19,7 +19,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Success Stories",
   description:
-    "Featured books, published authors, and case studies from Horpiano, real results across editing, ghostwriting, design, publishing, and marketing.",
+    "Featured books, published authors, and case studies from emilybyron, real results across editing, ghostwriting, design, publishing, and marketing.",
   path: "/success-stories",
 });
 
