@@ -1,5 +1,4 @@
 import { Hero } from "@/components/sections/Hero";
-import { TrustStats } from "@/components/sections/TrustStats";
 import { ServicesOverview } from "@/components/sections/ServicesOverview";
 import { AuthorJourney } from "@/components/sections/AuthorJourney";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
@@ -12,7 +11,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <TrustStats />
       <ServicesOverview />
       <AuthorJourney />
       <WhyChooseUs />

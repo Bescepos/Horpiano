@@ -8,7 +8,6 @@ import { PageHero } from "@/components/layout/PageHero";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerContainer, StaggerItem } from "@/components/motion/Stagger";
 import { AuroraBackground } from "@/components/motion/AuroraBackground";
-import { TrustStats } from "@/components/sections/TrustStats";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { getIcon } from "@/lib/icons";
@@ -103,8 +102,6 @@ export default function AboutPage() {
           </Reveal>
         </Container>
       </Section>
-
-      <TrustStats />
 
       {/* Mission & Vision */}
       <Section background="navy" spacing="lg" className="overflow-hidden">

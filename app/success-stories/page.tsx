@@ -9,7 +9,6 @@ import { Divider } from "@/components/ui/Divider";
 import { StoryCard } from "@/components/stories/StoryCard";
 import { CaseStudy } from "@/components/stories/CaseStudy";
 import { Testimonials } from "@/components/sections/Testimonials";
-import { TrustStats } from "@/components/sections/TrustStats";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { stories } from "@/data/stories";
@@ -44,8 +43,6 @@ export default function SuccessStoriesPage() {
         highlight="real results"
         subtitle="From debut novels to business bestsellers, explore the books and authors we've helped bring to the world."
       />
-
-      <TrustStats />
 
       {/* Featured books & authors */}
       <Section background="white" spacing="lg">
