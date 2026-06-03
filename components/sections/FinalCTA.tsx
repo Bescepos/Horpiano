@@ -5,6 +5,7 @@ import { GradientText } from "@/components/ui/GradientText";
 import { Divider } from "@/components/ui/Divider";
 import { AuroraBackground } from "@/components/motion/AuroraBackground";
 import { Reveal } from "@/components/motion/Reveal";
+import { siteConfig } from "@/lib/seo/siteConfig";
 
 interface FinalCTAProps {
   heading?: string;
@@ -43,7 +44,7 @@ export function FinalCTA({
           </Reveal>
           <Reveal variant="fade-up" delay={0.1}>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
-              <Button href="/consultation" size="lg">
+              <Button href={siteConfig.bookingUrl} size="lg">
                 {buttonLabel}
               </Button>
               <Button href="/contact" variant="secondary-dark" size="lg">

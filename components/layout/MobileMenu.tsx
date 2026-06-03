@@ -5,6 +5,7 @@ import { X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { buttonVariants } from "@/components/ui/Button";
+import { siteConfig } from "@/lib/seo/siteConfig";
 import { Logo } from "./Logo";
 import { cn } from "@/lib/utils/cn";
 
@@ -103,13 +104,15 @@ export function MobileMenu({ open, onClose, links, pathname }: MobileMenuProps) 
             </nav>
 
             <div className="mt-auto pt-8">
-              <Link
-                href="/consultation"
+              <a
+                href={siteConfig.bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={onClose}
                 className={buttonVariants({ variant: "primary", size: "md", fullWidth: true })}
               >
                 Book a Consultation
-              </Link>
+              </a>
             </div>
           </motion.div>
         </motion.div>

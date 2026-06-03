@@ -7,6 +7,8 @@ export const siteConfig = {
   description:
     "Horpiano helps writers succeed with professional editing, ghostwriting, publishing, branding, marketing, and author development services, from first idea to a published, growing career.",
   contactEmail: "horpianog@gmail.com",
+  /** Google Calendar appointment scheduling link used by the "Book a Consultation" CTAs. */
+  bookingUrl: "https://calendar.app.google/KcuQgTX2FBiLDsAg9",
   locale: "en_US",
   founded: "2026",
   nav: [

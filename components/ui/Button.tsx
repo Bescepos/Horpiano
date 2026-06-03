@@ -63,11 +63,12 @@ export function Button(props: ButtonProps) {
         </Link>
       );
     }
+    const openNewTab = external || /^https?:\/\//.test(href);
     return (
       <a
         href={href}
         className={classes}
-        {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        {...(openNewTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
         {children}
       </a>

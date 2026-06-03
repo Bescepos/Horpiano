@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Mail, MapPin, Clock } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
@@ -124,6 +125,17 @@ export default function ContactPage() {
                     ))}
                   </ul>
                 </div>
+
+                <p className="text-sm text-ink-muted">
+                  Working on a specific book?{" "}
+                  <Link
+                    href="/consultation"
+                    className="font-medium text-gold-700 transition-colors hover:text-gold-800"
+                  >
+                    Share the details in our consultation form
+                  </Link>
+                  .
+                </p>
               </div>
             </Reveal>
           </div>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { GradientText } from "@/components/ui/GradientText";
 import { BookCoverMock } from "@/components/art/BookCoverMock";
 import { GlassCard } from "@/components/ui/GlassCard";
+import { siteConfig } from "@/lib/seo/siteConfig";
 
 const avatars = ["EH", "MB", "PN", "DO", "SL"];
 
@@ -38,7 +39,7 @@ export function Hero() {
 
           <Reveal variant="fade-up" delay={0.15}>
             <div className="mt-9 flex flex-wrap items-center gap-4">
-              <Button href="/consultation" size="lg">
+              <Button href={siteConfig.bookingUrl} size="lg">
                 Book a Consultation
               </Button>
               <Button href="/services" variant="secondary-dark" size="lg">

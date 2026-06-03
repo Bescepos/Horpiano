@@ -21,6 +21,7 @@ import {
 } from "@/lib/data/getService";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { serviceJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo/jsonld";
+import { siteConfig } from "@/lib/seo/siteConfig";
 
 export const dynamicParams = false;
 
@@ -82,7 +83,7 @@ export default async function ServiceDetailPage({
         title={service.hero.heading}
         subtitle={service.hero.subheading}
       >
-        <Button href="/consultation" size="lg">
+        <Button href={siteConfig.bookingUrl} size="lg">
           Book a Consultation
         </Button>
         <Button href="/contact" variant="secondary-dark" size="lg">

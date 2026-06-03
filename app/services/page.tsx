@@ -10,6 +10,7 @@ import { JsonLd } from "@/components/ui/JsonLd";
 import { getAllServices } from "@/lib/data/getService";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { siteConfig } from "@/lib/seo/siteConfig";
 
 export const metadata: Metadata = buildMetadata({
   title: "Services",
@@ -39,7 +40,7 @@ export default function ServicesPage() {
         highlight="every stage"
         subtitle="From the first spark of an idea to a thriving author career, explore the full range of ways we help writers succeed."
       >
-        <Button href="/consultation" size="lg">
+        <Button href={siteConfig.bookingUrl} size="lg">
           Book a Consultation
         </Button>
         <Button href="/contact" variant="secondary-dark" size="lg">

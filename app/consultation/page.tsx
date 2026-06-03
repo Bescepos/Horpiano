@@ -4,7 +4,9 @@ import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Card } from "@/components/ui/Card";
+import { Button } from "@/components/ui/Button";
 import { PageHero } from "@/components/layout/PageHero";
+import { siteConfig } from "@/lib/seo/siteConfig";
 import { Reveal } from "@/components/motion/Reveal";
 import { Accordion } from "@/components/ui/Accordion";
 import { ConsultationForm } from "@/components/forms/ConsultationForm";
@@ -76,10 +78,17 @@ export default function ConsultationPage() {
         eyebrow="Consultation"
         title="Book your free"
         highlight="consultation"
-        subtitle="Share a few details about your project and we'll craft a personalized plan to bring your book to life."
-      />
+        subtitle="Choose a time and book instantly, or share your project details below and we'll be in touch within one business day."
+      >
+        <Button href={siteConfig.bookingUrl} size="lg">
+          Book a time instantly
+        </Button>
+        <Button href="#consultation-form" variant="secondary-dark" size="lg">
+          Share project details
+        </Button>
+      </PageHero>
 
-      <Section background="white" spacing="lg">
+      <Section background="white" spacing="lg" id="consultation-form">
         <Container>
           <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
             <Reveal>

@@ -73,15 +73,17 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/consultation"
+          <a
+            href={siteConfig.bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               buttonVariants({ variant: "primary", size: "sm" }),
               "hidden sm:inline-flex",
             )}
           >
             Book a Consultation
-          </Link>
+          </a>
           <button
             type="button"
             onClick={() => setMenuOpen(true)}

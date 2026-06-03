@@ -2,8 +2,8 @@
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { CalendarCheck } from "lucide-react";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { siteConfig } from "@/lib/seo/siteConfig";
 import { useEffect, useState } from "react";
 
 export function FloatingConsultationButton() {
@@ -31,14 +31,16 @@ export function FloatingConsultationButton() {
           transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="fixed bottom-6 right-6 z-50"
         >
-          <Link
-            href="/consultation"
+          <a
+            href={siteConfig.bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center gap-2.5 rounded-pill bg-gold-gradient px-5 py-3.5 font-semibold text-navy-900 shadow-gold-glow animate-pulse-glow"
           >
             <CalendarCheck className="h-5 w-5" aria-hidden="true" />
             <span className="hidden sm:inline">Book a Consultation</span>
             <span className="sm:hidden">Consult</span>
-          </Link>
+          </a>
         </motion.div>
       )}
     </AnimatePresence>
