@@ -91,38 +91,42 @@ export default function ContactPage() {
                       </a>
                     </div>
                   </li>
-                  <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
-                      <WhatsAppIcon className="h-5 w-5" />
-                    </span>
-                    <div>
-                      <p className="font-semibold text-navy-900">WhatsApp</p>
-                      <a
-                        href={waHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gold-700 transition-colors hover:text-gold-800"
-                      >
-                        Chat on WhatsApp
-                      </a>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
-                      <TelegramIcon className="h-5 w-5" />
-                    </span>
-                    <div>
-                      <p className="font-semibold text-navy-900">Telegram</p>
-                      <a
-                        href={tgHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gold-700 transition-colors hover:text-gold-800"
-                      >
-                        Message on Telegram
-                      </a>
-                    </div>
-                  </li>
+                  {siteConfig.whatsapp ? (
+                    <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
+                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
+                        <WhatsAppIcon className="h-5 w-5" />
+                      </span>
+                      <div>
+                        <p className="font-semibold text-navy-900">WhatsApp</p>
+                        <a
+                          href={waHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gold-700 transition-colors hover:text-gold-800"
+                        >
+                          Chat on WhatsApp
+                        </a>
+                      </div>
+                    </li>
+                  ) : null}
+                  {siteConfig.telegram ? (
+                    <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
+                      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
+                        <TelegramIcon className="h-5 w-5" />
+                      </span>
+                      <div>
+                        <p className="font-semibold text-navy-900">Telegram</p>
+                        <a
+                          href={tgHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gold-700 transition-colors hover:text-gold-800"
+                        >
+                          Message on Telegram
+                        </a>
+                      </div>
+                    </li>
+                  ) : null}
                   <li className="flex items-start gap-4 rounded-2xl border border-gray-line/70 bg-white p-5 shadow-soft">
                     <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-700">
                       <MapPin className="h-5 w-5" aria-hidden="true" />

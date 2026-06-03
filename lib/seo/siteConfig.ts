@@ -11,7 +11,7 @@ export const siteConfig = {
    *  no "+", spaces, or dashes), e.g. "15551234567". Leave "" to hide the link. */
   whatsapp: "",
   /** Telegram username without the "@", e.g. "emilybyron". Leave "" to hide the link. */
-  telegram: "",
+  telegram: "Authorstrategist",
   /** Google Calendar appointment scheduling link used by the "Book a Consultation" CTAs. */
   bookingUrl: "https://calendar.app.google/KcuQgTX2FBiLDsAg9",
   locale: "en_US",
