@@ -16,6 +16,7 @@ export function NewsletterForm({ className }: NewsletterFormProps) {
   const { status, fieldErrors, submit } = useFormSubmit({
     schema: newsletterSchema,
     endpoint: "/api/newsletter",
+    deliverVia: "api",
     buildMailto: (data) => buildMailto("Newsletter signup, Horpiano", { Email: data.email }),
   });
 

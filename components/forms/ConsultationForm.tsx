@@ -62,13 +62,24 @@ export function ConsultationForm() {
         className="rounded-2xl border border-success/30 bg-success/5 p-8 text-center"
       >
         <CheckCircle2 className="mx-auto h-12 w-12 text-success" aria-hidden="true" />
-        <h3 className="mt-4 font-serif text-2xl text-navy-900">Consultation requested</h3>
+        <h3 className="mt-4 font-serif text-2xl text-navy-900">Almost there</h3>
         <p className="mt-2 text-ink-muted">
-          Thank you. We&apos;ve received your details and will reach out within one business
-          day to schedule your consultation.
+          We&apos;ve opened a pre-filled email to horpianog@gmail.com with your project
+          details. Press send to submit your request and we&apos;ll be in touch within one
+          business day.
+        </p>
+        <p className="mt-3 text-sm text-ink-muted">
+          Mail app didn&apos;t open?{" "}
+          <a
+            href={mailtoHref}
+            className="font-semibold text-gold-700 underline hover:text-gold-800"
+          >
+            Open it manually
+          </a>
+          .
         </p>
         <Button onClick={reset} variant="secondary" className="mt-6">
-          Submit another request
+          Start over
         </Button>
       </div>
     );

@@ -1,9 +1,11 @@
 import { siteConfig } from "@/lib/seo/siteConfig";
 
 /**
- * Build a mailto: URL to the brand inbox, pre-filled with a subject and a
- * readable body assembled from form fields. Used as a graceful fallback when
- * the API submission cannot be completed.
+ * Build a mailto: URL to the brand inbox (horpianog@gmail.com), pre-filled with
+ * a subject and a readable body assembled from the submitted form fields.
+ *
+ * Uses encodeURIComponent (not URLSearchParams) so spaces become %20 and line
+ * breaks become %0A — the encoding mail clients expect, avoiding "+" artifacts.
  */
 export function buildMailto(
   subject: string,
@@ -14,10 +16,7 @@ export function buildMailto(
     .map(([label, value]) => `${label}: ${value}`)
     .join("\n");
 
-  const params = new URLSearchParams({
-    subject,
-    body,
-  });
+  const query = `subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-  return `mailto:${siteConfig.contactEmail}?${params.toString()}`;
+  return `mailto:${siteConfig.contactEmail}?${query}`;
 }

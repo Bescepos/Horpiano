@@ -42,13 +42,23 @@ export function ContactForm() {
         className="rounded-2xl border border-success/30 bg-success/5 p-8 text-center"
       >
         <CheckCircle2 className="mx-auto h-12 w-12 text-success" aria-hidden="true" />
-        <h3 className="mt-4 font-serif text-2xl text-navy-900">Message sent</h3>
+        <h3 className="mt-4 font-serif text-2xl text-navy-900">Almost there</h3>
         <p className="mt-2 text-ink-muted">
-          Thank you for reaching out. We&apos;ll get back to you at the email you provided
-          within one business day.
+          We&apos;ve opened a pre-filled email to horpianog@gmail.com in your mail app.
+          Press send to deliver your message and we&apos;ll reply within one business day.
+        </p>
+        <p className="mt-3 text-sm text-ink-muted">
+          Mail app didn&apos;t open?{" "}
+          <a
+            href={mailtoHref}
+            className="font-semibold text-gold-700 underline hover:text-gold-800"
+          >
+            Open it manually
+          </a>
+          .
         </p>
         <Button onClick={reset} variant="secondary" className="mt-6">
-          Send another message
+          Start over
         </Button>
       </div>
     );
