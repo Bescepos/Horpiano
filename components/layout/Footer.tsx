@@ -101,6 +101,17 @@ export function Footer() {
                     {siteConfig.contactEmail}
                   </a>
                 </li>
+                {siteConfig.secondaryEmail ? (
+                  <li>
+                    <a
+                      href={`mailto:${siteConfig.secondaryEmail}`}
+                      className="inline-flex items-center gap-2 text-navy-200 transition-colors hover:text-gold-200"
+                    >
+                      <Mail className="h-4 w-4 text-gold-400" aria-hidden="true" />
+                      {siteConfig.secondaryEmail}
+                    </a>
+                  </li>
+                ) : null}
                 <li className="text-navy-300">Worldwide · Remote-first</li>
               </ul>
 
