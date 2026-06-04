@@ -19,8 +19,8 @@ export function Logo({ className }: LogoProps) {
         <Image
           src="/logo.jpg"
           alt="Emily Byron Literary Services"
-          width={720}
-          height={800}
+          width={1280}
+          height={940}
           priority
           className="h-12 w-auto rounded-md sm:h-14 lg:h-16"
         />
