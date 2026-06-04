@@ -36,3 +36,6 @@ next-env.d.ts
 .vscode/*
 !.vscode/extensions.json
 .idea
+
+# local source assets (the optimized logo lives in /public)
+WhatsApp Image*.jpeg
