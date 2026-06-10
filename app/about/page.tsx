@@ -167,12 +167,15 @@ export default function AboutPage() {
             <SectionHeading
               eyebrow="Our Expert Team"
               title="The specialists in your corner"
-              subtitle="A multidisciplinary team united by one goal: your success as an author."
+              subtitle="A multidisciplinary team across strategy, media, SEO, finance, and research, dedicated to your success."
             />
           </Reveal>
-          <StaggerContainer className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <StaggerContainer className="mt-12 flex flex-wrap justify-center gap-6">
             {team.map((member) => (
-              <StaggerItem key={member.name}>
+              <StaggerItem
+                key={member.name}
+                className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]"
+              >
                 <Card className="h-full text-center" interactive>
                   <span className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-navy-700 to-navy-900 font-serif text-2xl text-gold-200">
                     {member.initials}
