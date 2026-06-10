@@ -50,10 +50,11 @@ const values = [
 ];
 
 const team = [
-  { initials: "AR", name: "Adaeze Roberts", role: "Founder & Publishing Director", bio: "Two decades guiding authors from first draft to lasting careers." },
-  { initials: "JM", name: "Jonah Mercer", role: "Head of Editorial", bio: "Developmental editor with a love for shaping unforgettable stories." },
-  { initials: "LC", name: "Lena Cruz", role: "Creative & Design Lead", bio: "Award-minded designer crafting covers that sell." },
-  { initials: "TS", name: "Theo S-Adjei", role: "Marketing Strategist", bio: "Data-driven campaigns that connect books with readers." },
+  { initials: "CJ", name: "Comfort Jackson", role: "Lead Strategist", bio: "Develops data-driven growth strategies and oversees campaign planning to maximize results." },
+  { initials: "TR", name: "Taylor R.", role: "Media & Brand Communications Expert", bio: "Specializes in content positioning, audience engagement, and multi-platform media visibility." },
+  { initials: "FS", name: "Frank SEO", role: "Search Atlas & SEO Specialist", bio: "Focuses on search optimization, keyword strategy, and Search Atlas analytics to improve online discoverability." },
+  { initials: "OR", name: "Oyelakin R.", role: "Finance Department Lead", bio: "Manages budgeting, financial planning, and performance tracking to ensure sustainable growth." },
+  { initials: "YA", name: "Yusuff A.", role: "Market Research Analyst (MRA)", bio: "Conducts in-depth market analysis, audience research, and competitive intelligence to support strategic decisions." },
 ];
 
 export default function AboutPage() {
@@ -164,7 +165,7 @@ export default function AboutPage() {
         <Container>
           <Reveal>
             <SectionHeading
-              eyebrow="Our Team"
+              eyebrow="Our Expert Team"
               title="The specialists in your corner"
               subtitle="A multidisciplinary team united by one goal: your success as an author."
             />
